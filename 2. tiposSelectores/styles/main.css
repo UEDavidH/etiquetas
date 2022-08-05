@@ -1,0 +1,52 @@
+/*
+CSS: Es un lenguaje aliado a html que nos permite formatear de una manera agradable al ojo humano, los documentos HTML, es decir que es un lenguaje de estilos para documentos HTML.
+*/
+/*
+La estructura básica para trabajar en CSS es:
+
+selector{
+    atributo:valor;
+}
+
+Selector: Selecciona ue elemento se va a modificar
+
+Tipos:
+1. Selector por etiqueta: Cambia el estilo de todas las etiquetas
+2. Selector por clase: Cambia o modiffica el esilo del elemento que use en su atributo class el estilo
+3. Selector por ID: Cambia p modifica el estilo del elemento que posea el id.
+4. Selector universal: *
+
+*/
+
+*{
+    margin:0;
+    padding: 0;   
+}
+
+h2{
+    color:blueviolet;
+    background-color: blanchedalmond;
+    text-align: left;
+}
+
+/*
+Selector por clase: " . "
+*/
+
+.articulo1{
+    font-family: fantasy;
+    font-size: larger;
+    background-color: darkseagreen;
+    padding: 0px 0px 10px 4px;
+}
+/*
+Selector por ID #
+*/
+
+#segundoParrafo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    background-color: darksalmon;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}

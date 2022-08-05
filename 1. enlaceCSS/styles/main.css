@@ -1,0 +1,8 @@
+/*
+CSS: Es un lenguaje aliado a html que nos permite formatear de una manera agradable al ojo humano, los documentos HTML, es decir que es un lenguaje de estilos para documentos HTML.
+*/
+h2{
+    color:blueviolet;
+    background-color: blanchedalmond;
+    text-align: left;
+}
